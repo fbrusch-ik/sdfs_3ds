@@ -1,0 +1,4 @@
+Do whatever you want with this, if you want to give me credit do :P
+Check the ndslib and fatfs licenses if you want more info ^^
+
+ - Kane49
