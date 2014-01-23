@@ -13,10 +13,9 @@ static int sdmmc_timeout = 0;
 static int sdmmc_gotcmd8reply = 0;
 static int sdmmc_sdhc = 0;
 
-//Severely device dependent
+//Made Device Independent by Xerpi :)
 void swiDelay(uint32 loops){
-  int i;
-  for (i = 0; i < loops*SLEEP_MULTIPLIER_3DS;i++);
+  nsleep((uint64_t)(13*loops));
 }
 
 //Sending Commands to the Controller
